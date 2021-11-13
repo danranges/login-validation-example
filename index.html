@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="main.js" type="module"></script>
+    <title>Login Validation</title>
+  </head>
+  <body>
+    <div class="container" data-login-container>
+      <div class="header">
+        <h1>Create an Account</h1>
+        <p>Already have an account? <a href="#">Log in</a></p>
+      </div>
+
+      <form action="" class="login" data-login-form>
+        <label for="femail">Email</label>
+        <div class="error" id="email-error"></div>
+        <input type="text" name="femail" id="email-input" />
+        <label for="fcountry">Country</label>
+        <div class="error" id="country-error"></div>
+        <input type="text" name="fcountry" id="country-input" />
+        <label for="fzip">Zip Code</label>
+        <div class="error" id="zip-error"></div>
+        <input type="text" name="fzip" id="zip-input" />
+        <label for="fpassword">Password</label>
+        <div class="error" id="password-error"></div>
+        <input type="text" name="fpassword" id="password-input" />
+        <label for="fpassconfirm">Confirm Password</label>
+        <input type="text" name="fpassconfirm" id="password-confirm-input" />
+        <button>Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
