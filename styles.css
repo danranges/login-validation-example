@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -40,8 +41,27 @@ input {
 }
 
 button {
+  color: darkslategrey;
   align-self: center;
   width: 60%;
-  padding: 0.25rem 0;
+  padding: 0.5rem 0;
   margin-top: 0.5rem;
+  border: 2px darkslategrey solid;
+  border-radius: 0.25rem;
+  background-color: white;
+}
+
+button:hover {
+  box-shadow: 0 0 0.25rem rgba(47, 79, 79, 0.507);
+}
+
+button:active {
+  box-shadow: inset 0 0 0.25rem rgba(47, 79, 79, 0.507);
+}
+
+input {
+  border: none;
+  border-radius: 0.25rem;
+  background-color: rgb(236, 236, 236);
+  height: 2rem;
 }
