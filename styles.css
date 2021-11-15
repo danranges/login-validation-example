@@ -65,3 +65,8 @@ input {
   background-color: rgb(236, 236, 236);
   height: 2rem;
 }
+
+.error {
+  font-size: 0.75rem;
+  color: darkred;
+}
